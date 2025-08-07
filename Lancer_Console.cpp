@@ -26,8 +26,6 @@ static void DisplayConsoleIntro()
     std::string fakeInit1("Initializing semantic Manifold...");
     std::string fakeInit2("Initializing logic gradients...");
     std::string promptText("Loading Company OS...");
-    std::string companyText("MRB designation: ");
-    std::string company("Steel Rings\n");
 
     ScrollText(titleText, 5, std::string(LTEXT_BABYBLUE), std::string(LBACKGROUND_BLACK));
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
@@ -42,10 +40,6 @@ static void DisplayConsoleIntro()
     ScrollText(promptText, 20, std::string(LTEXT_FAINT), std::string(LBACKGROUND_BLACK));
     std::this_thread::sleep_for(std::chrono::milliseconds(100));
     ScrollText(success, 35, std::string(LTEXT_FAINT), std::string(LBACKGROUND_BLACK));
-    std::this_thread::sleep_for(std::chrono::milliseconds(50));
-    ScrollText(companyText, 20, std::string(LTEXT_DEFAULT), std::string(LBACKGROUND_BLACK));
-    std::this_thread::sleep_for(std::chrono::milliseconds(75));
-    ScrollText(company, 75, std::string(LTEXT_BLACK), std::string(LBACKGROUND_WHITE));
     std::this_thread::sleep_for(std::chrono::milliseconds(50));
 }
 
