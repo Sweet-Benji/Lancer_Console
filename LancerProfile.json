@@ -1,0 +1,9 @@
+{
+  "Name": "Jane Doe",
+  "Callsign": "Lancer",
+  "Color": "LTEXT_RED",
+  "Logs": [
+    [ "Title 1", "This is \\033[107;31mone\\033[m\n" ],
+    [ "Title 2", "this is \\033[32mtwo\\033[m\n" ]
+  ]
+}
