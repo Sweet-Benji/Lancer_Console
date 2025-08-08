@@ -81,7 +81,7 @@ CResult LogFunc(LConsole& console, const CommandArgs& args)
     }
     else
     {
-        std::cout << "Too many arguements!" << std::endl;
+        std::cout << "Too many arguments!" << std::endl;
         return CResult::Failure_FunctionError;
     }
     return CResult::Success;

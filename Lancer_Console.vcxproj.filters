@@ -30,26 +30,20 @@
     <ClCompile Include="Lancer_Console.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DialogueTree.cpp">
-      <Filter>Source Files\Dialogue Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="Textblock.cpp">
-      <Filter>Source Files\Dialogue Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="jsoncpp.cpp">
-      <Filter>Source Files\JsonCpp</Filter>
-    </ClCompile>
     <ClCompile Include="ConsoleIO\Commands.cpp">
       <Filter>Source Files\ConsoleIO</Filter>
     </ClCompile>
+    <ClCompile Include="Dialogue Tree\DialogueTree.cpp">
+      <Filter>Source Files\Dialogue Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="json\jsoncpp.cpp">
+      <Filter>Source Files\JsonCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue Tree\Textblock.cpp">
+      <Filter>Source Files\Dialogue Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DialogueTree.h">
-      <Filter>Source Files\Dialogue Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="Textblock.h">
-      <Filter>Source Files\Dialogue Tree</Filter>
-    </ClInclude>
     <ClInclude Include="Color.h">
       <Filter>Source Files\Dialogue Tree</Filter>
     </ClInclude>
@@ -64,6 +58,12 @@
     </ClInclude>
     <ClInclude Include="ConsoleIO\Commands.h">
       <Filter>Source Files\ConsoleIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue Tree\Textblock.h">
+      <Filter>Source Files\Dialogue Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue Tree\DialogueTree.h">
+      <Filter>Source Files\Dialogue Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
