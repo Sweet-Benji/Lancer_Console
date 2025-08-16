@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Color.h"
+#include "../Text Formatting/Color.h"
 #include <chrono>
 #include <fstream>
 #include <iostream>

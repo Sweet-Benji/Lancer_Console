@@ -152,6 +152,7 @@
       <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -194,8 +195,8 @@
     <ClCompile Include="ConsoleIO\Commands.cpp" />
     <ClCompile Include="Dialogue Tree\DialogueTree.cpp" />
     <ClCompile Include="json\jsoncpp.cpp" />
-    <ClCompile Include="Lancer_Console.cpp" />
     <ClCompile Include="Dialogue Tree\Textblock.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Color.h" />
@@ -205,6 +206,9 @@
     <ClInclude Include="json\json.h" />
     <ClInclude Include="Lancers.h" />
     <ClInclude Include="Dialogue Tree\Textblock.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,7 +1,8 @@
 #pragma once
 #include <functional>
 #include "../json/json.h"
-#include "../Lancers.h"
+#include "../Text Formatting/Color.h"
+#include "../Profiles/Lancers.h"
 #include <string>
 #include <vector>
 

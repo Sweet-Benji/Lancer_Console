@@ -2,7 +2,7 @@
 #include <cctype>
 #include <chrono>
 #include "Commands.h"
-#include "../Color.h"
+#include "../Text Formatting/Color.h"
 #include <fstream>
 #include <iostream>
 #include <map>

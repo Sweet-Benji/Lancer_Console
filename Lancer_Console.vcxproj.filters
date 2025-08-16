@@ -19,17 +19,17 @@
     <Filter Include="Source Files\JsonCpp">
       <UniqueIdentifier>{d8dbf8d0-95f1-49d3-ab1f-8fad169f4b99}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Lancers">
-      <UniqueIdentifier>{adb91217-36e8-42a8-81e8-a8ec42b6f704}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\ConsoleIO">
       <UniqueIdentifier>{8c7b8db6-0cde-4447-93c1-c466edbaf78f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Profiles">
+      <UniqueIdentifier>{d1743635-8646-43ed-be5b-612909071a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Text Formatting">
+      <UniqueIdentifier>{1a0adb89-0abc-45a2-9c28-1587d4e66fc3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lancer_Console.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ConsoleIO\Commands.cpp">
       <Filter>Source Files\ConsoleIO</Filter>
     </ClCompile>
@@ -42,19 +42,16 @@
     <ClCompile Include="Dialogue Tree\Textblock.cpp">
       <Filter>Source Files\Dialogue Tree</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Color.h">
-      <Filter>Source Files\Dialogue Tree</Filter>
-    </ClInclude>
     <ClInclude Include="json\json.h">
       <Filter>Source Files\JsonCpp</Filter>
     </ClInclude>
     <ClInclude Include="json\json-forwards.h">
       <Filter>Source Files\JsonCpp</Filter>
-    </ClInclude>
-    <ClInclude Include="Lancers.h">
-      <Filter>Source Files\Lancers</Filter>
     </ClInclude>
     <ClInclude Include="ConsoleIO\Commands.h">
       <Filter>Source Files\ConsoleIO</Filter>
@@ -65,5 +62,16 @@
     <ClInclude Include="Dialogue Tree\DialogueTree.h">
       <Filter>Source Files\Dialogue Tree</Filter>
     </ClInclude>
+    <ClInclude Include="Lancers.h">
+      <Filter>Source Files\Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source Files\Text Formatting</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

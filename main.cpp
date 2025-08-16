@@ -3,7 +3,7 @@
 
 #include "ConsoleIO/Commands.h"
 #include "Dialogue Tree/DialogueTree.h"
-#include "Lancers.h"
+#include "Profiles/Lancers.h"
 
 #ifdef _WIN32
 #include <Windows.h>
@@ -79,7 +79,7 @@ int main()
     // Diagetic "loading" of the console; comment out if debugging
     DisplayConsoleIntro();
 
-    LConsole console("LancerProfile.Json");
+    LConsole console("Profiles\\LancerProfile.Json");
 
     while (!exit)
     {
